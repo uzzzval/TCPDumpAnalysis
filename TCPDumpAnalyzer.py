@@ -1,6 +1,6 @@
 import subprocess
 
-from subprocess import Popen, PIP
+from subprocess import Popen, PIPE
 
 sudo_password = 'javarox'
 command = 'tcpdump port 443'.split()
